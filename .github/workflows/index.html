@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Page</title>
+
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; 
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50; 
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #3498db; 
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        
+        dl {
+            display: grid;
+            grid-template-columns: 150px 1fr; 
+            gap: 10px 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        dd {
+            margin: 0;
+        }
+
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #ecf0f1; 
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #e74c3c; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        ul li p {
+            margin: 5px 0;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #bdc3c7;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Profile</h1>
+        <p>A demonstration of structured information presentation using semantic HTML tags.</p>
+    </header>
+
+    <main>
+        <section id="personal-details">
+            <h2>Personal Details</h2>
+            
+            <dl>
+                <dt>Full Name:</dt>
+                <dd>Tanishk kumar</dd>
+                <dt>Age:</dt>
+                <dd>18</dd>
+                <dt>Address:</dt>
+                <dd>rajeev nagar patna</dd>
+            </dl>
+        </section>
+
+        <section id="educational-background">
+            <h2>Educational Background</h2>
+            
+            <ul>
+                <li>
+                    <p><strong>Btech in computer science(AIML)</strong></p>
+                    <p>Medhavi skill University (2025 - 2029)</p>
+                    <p>Specialization: Artifical inteligence and Machine learning.</p>
+                </li>
+                <li>
+                    <p><strong>BS-MS</strong></p>
+                    <p>IIT Patna (2025-2030)</p>
+                    <p>Specialization: Artifical inteligence and Cybersecurity.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Tanishk Kumar. Assignment Submission.</p>
+    </footer>
+
+</body>
+</html>
